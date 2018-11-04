@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.light.componet">
+
+    <application>
+        <activity
+            android:name=".activity.LiteActivity1"
+            android:icon="@drawable/ic_launcher"
+            android:launchMode="singleTask"
+            android:process=":appbrand1"
+            android:taskAffinity="com.test.szy.app.appbrand1" />
+        <activity
+            android:name=".activity.LiteActivity2"
+            android:icon="@drawable/ic_launcher"
+            android:launchMode="singleTask"
+            android:process=":appbrand2"
+            android:taskAffinity="com.test.szy.app.appbrand2" />
+        <activity
+            android:name=".activity.LiteActivity3"
+            android:icon="@drawable/ic_launcher"
+            android:launchMode="singleTask"
+            android:process=":appbrand3"
+            android:taskAffinity="com.test.szy.app.appbrand3" />
+        <activity
+            android:name=".activity.LiteActivity4"
+            android:icon="@drawable/ic_launcher"
+            android:launchMode="singleTask"
+            android:process=":appbrand4"
+            android:taskAffinity="com.test.szy.app.appbrand4" />
+        <activity
+            android:name=".activity.LiteActivity5"
+            android:icon="@drawable/ic_launcher"
+            android:launchMode="singleTask"
+            android:process=":appbrand5"
+            android:taskAffinity="com.test.szy.app.appbrand5" />
+    </application>
+
+</manifest>
